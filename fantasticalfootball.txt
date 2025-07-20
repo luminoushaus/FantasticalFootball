@@ -1,0 +1,92 @@
+ dodgeball?????
+ 12 players on team
+ 16 teams (NPC)
+ 	Australia
+ 	New Zealand
+ 	US
+ 	Canada
+ 	Brazil
+ 	Chile
+ 	Nigeria
+ 	South Africa
+ 	UK - Glasgow Smiles
+ 	Romania
+ 	Japan
+ 	Phillipines
+ 	South Pole - Amundsen-Scott Researchers
+ 	North Pole - Lapland Elves????
+ 	Team 15
+ 	Team 16
+ Basic game rules
+ 	6 defense 
+ 	6 offense
+ 	balls throw em 
+ 	hit by ball you are out 
+ 	hit someone with ball you are points 
+ 	different points for different hits????? distance or on body unsure
+ 	only dodgeball type balls
+
+ stats
+ 	evasiveness - ability to not get smacked by ball
+ 	speed - movement 
+ 	athletics - ability to throw the ball good
+ 	accuracy - aiming 
+
+ How the game is 
+ 	8 teams per league
+ 	north south pole rivalry
+ 	team name placename noun
+ 	rivalry mechanic
+ 	Amundsen-Scott Researchers are playing their rivals Lapland ELves! - The Crowd is Pumped Up!
+ 	The Crowd is on the edge of their seats
+ 	The Crowd is Pumped Up
+ 	The Crowd is Ecstatic - higher crit chance 
+Mascots
+	ability to rile up the crowd
+	also ability to unrile the crowd
+	Stats:
+		Charisma
+		Moves
+		Crowd Opinion - Popularity
+
+
+Crowd
+	Disappointed Crowd - no affect
+	Neutral Crowd - no effect
+	Excited Crowd tier 1 - no effect
+	Excited Crowd tier 2 - lower oopsies chance
+	Excited Crowd tier 3 - higher crit chance
+	Rival matches start at ET1 with a higher chance to rank up than rank down (better mascot performance)
+
+Leagues
+	Two leagues
+	Champions from both leagues will play off at the end of the season
+	League A:
+		North Pole 
+		South Pole 
+		Canada 
+		Nigeria
+		US
+		South Africa
+		Phillipines
+		UK
+	League B:
+		Team 15
+		Team 16
+		Australia
+		New Zealand
+		Brazil
+		Chile
+		Romania
+		Japan
+	Each season each team will play its team members X times for a total of Y games
+	Exhibition Games against other league's teams? (halfway point of season maybe alongside vote being made real)
+
+Player-Led teams 
+	future project for sure
+	probably 2 leagues to start with, more leagues as needed
+
+Rivalry
+	Ability to form rivalries
+	need like 75% yes vote to take? adjust higher or lower as needed ig 
+	vote only available after some sort of in game trigger (X close matches?)
