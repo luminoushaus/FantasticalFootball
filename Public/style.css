@@ -26,6 +26,7 @@ h1 {
   right: 10px; bottom:0px; left: 10px;
   position:absolute;
   box-sizing: border-box;
+  overflow-y:auto;
 
   
 }
