@@ -1,0 +1,19 @@
+{
+  "name": "fantasticalfootball",
+  "version": "0.0.1",
+  "description": "Fantasy football, in both senses of the word",
+  "main": "ffserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luminoushaus/FantasticalFootball.git"
+  },
+  "author": "dittoslash & luminoushaus",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/luminoushaus/FantasticalFootball/issues"
+  },
+  "homepage": "https://github.com/luminoushaus/FantasticalFootball#readme"
+}
