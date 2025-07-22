@@ -1,19 +1,30 @@
 {
-  "name": "fantasticalfootball",
-  "version": "0.0.1",
-  "description": "Fantasy football, in both senses of the word",
-  "main": "ffserver.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/luminoushaus/FantasticalFootball.git"
-  },
-  "author": "dittoslash & luminoushaus",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/luminoushaus/FantasticalFootball/issues"
-  },
-  "homepage": "https://github.com/luminoushaus/FantasticalFootball#readme"
+	"name": "fantasticalfootball",
+	"version": "0.0.1",
+	"description": "Fantasy football, in both senses of the word",
+	"main": "ffserver.js",
+	"scripts": {
+		"start": "node ./bin/www"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/luminoushaus/FantasticalFootball.git"
+	},
+	"author": "dittoslash & luminoushaus",
+	"license": "UNLICENSED",
+	"bugs": {
+		"url": "https://github.com/luminoushaus/FantasticalFootball/issues"
+	},
+	"homepage": "https://github.com/luminoushaus/FantasticalFootball#readme",
+	"dependencies": {
+		"cookie-parser": "^1.4.7",
+		"debug": "^4.4.1",
+		"express": "^5.1.0",
+		"hbs": "^4.2.0",
+		"http-errors": "^2.0.0",
+		"js-sha512": "^0.9.0",
+		"morgan": "^1.10.1",
+		"sqlite3": "^5.1.7",
+		"uuid": "^11.1.0"
+	}
 }
