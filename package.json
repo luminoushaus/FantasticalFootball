@@ -4,7 +4,8 @@
 	"description": "Fantasy football, in both senses of the word",
 	"main": "ffserver.js",
 	"scripts": {
-		"start": "node ./bin/www"
+		"start": "node ./bin/www",
+		"simtest": "node ./lib/sim/test"
 	},
 	"repository": {
 		"type": "git",
@@ -18,6 +19,7 @@
 	"homepage": "https://github.com/luminoushaus/FantasticalFootball#readme",
 	"dependencies": {
 		"cookie-parser": "^1.4.7",
+		"csv-parse": "^6.1.0",
 		"debug": "^4.4.1",
 		"express": "^5.1.0",
 		"hbs": "^4.2.0",
