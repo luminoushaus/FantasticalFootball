@@ -27,17 +27,21 @@ var newPlayer = "";
 function generate() {
 	let playerNames = []; //create PlayerNames array
 
-	for (let playerLetter of "ABCD") {
+	for (let playerLetter of "ABCD") { //do for A, B, C, and D
 		//make name
 		let name = firstNameList[Math.floor( Math.random() * firstNameList.length )] + " " + surnameList[Math.floor( Math.random() * surnameList.length)];
 		//add name to array. this isn't used but we're keeping it for funsies
 		playerNames.push(name);
-		//add name to element.
-		document.querySelector(`#player${playerLetter}>.name`).innerText = name
+		//add name to element
+		document.querySelector(`#player${playerLetter}>.name`).innerText = name;
+		//add species
+		document.querySelector(`#player${playerLetter}>.species`).innerText = speciesList[Math.floor(Math.random() * speciesList.length)];
 
 		for (let stat of ["str", "dex", "end", "int", "ego", "fte"]) {
 			document.querySelector(`#player${playerLetter}>.stats>.${stat}`).innerText = getRandomInt(1, 10);
+
 		}
+
 	}
 
 	
