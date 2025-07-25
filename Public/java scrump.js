@@ -32,6 +32,11 @@ function generate() {
 		document.getElementById("name" + "abcd"[i]).innerText = name;
 	}
 }
+
+function random(min,max) {
+ return Math.floor((Math.random())*(max-min+1))+min;
+ document.getElementById("stats" + "abcd"[i]).innerText =
+}
 /*
 	console.log(playerNames);
 	document.getElementById("playersa").innerText = playerNames;
