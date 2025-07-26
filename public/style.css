@@ -40,7 +40,7 @@ a {
 	flex-direction: column;
 	justify-content: center;
 	align-items: left;
-	text-align: left;
+	text-align: start;
 	font-size: 1rem;
 	transition: .3s ease;
 	z-index: 1;
@@ -59,6 +59,11 @@ a {
 
 }
 
+ul {
+	position: absolute;
+	top: 25px;
+	left: 5px;
+}
 
 .Events {
 	border: 2px solid black;
