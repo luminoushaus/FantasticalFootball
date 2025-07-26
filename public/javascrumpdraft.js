@@ -17,9 +17,14 @@ function generate() {
 
 	for (let playerLetter of "ABCD") { //do for A, B, C, and D
 		//make name
-		let name = firstNameList[Math.floor( Math.random() * firstNameList.length )] + " " + surnameList[Math.floor( Math.random() * surnameList.length)];
-		//add name to array. this isn't used but we're keeping it for funsies
-		playerNames.push(name);
+		let name;
+		while (true) { //keep doing this
+			name = firstNameList[Math.floor( Math.random() * firstNameList.length )] + " " + surnameList[Math.floor( Math.random() * surnameList.length)];
+			if (!playerNames.includes(name)) { //this one's fresh
+				playerNames.push(name); //add it to the list
+				break;
+			} //otherwise the loop continues
+		} 
 		//add name to element
 		document.querySelector(`#player${playerLetter}>.name`).innerText = name;
 		//add species
@@ -29,10 +34,7 @@ function generate() {
 			document.querySelector(`#player${playerLetter}>.stats>.${stat}`).innerText = getRandomInt(1, 10);
 
 		}
-
 	}
-
-	
 }
 
 function getRandomInt(min, max) {

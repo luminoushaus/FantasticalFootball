@@ -21,6 +21,7 @@ h2 {
 
 p {
 	font-family: "Times New Roman", Times, serif;
+	margin: 5px 0px;
 }
 
 a {
@@ -78,6 +79,7 @@ ul {
 	
 }
 
+
 .PatchNotes {
 	border: 2px solid black;
 	background-color: rgb(79, 78, 79);
@@ -93,6 +95,18 @@ ul {
 .drafting {
 	display: grid;
 	grid-template: 1fr 1fr / 1fr 1fr;
+
+	gap: 5px;
 }
 
 
+.PlayerBox {
+	border: 4px solid black;
+	padding: 3px;
+	border-radius: 10px;
+	margin: 2px;
+}
+
+.name {
+	color: #debef7;
+}
