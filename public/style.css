@@ -110,3 +110,77 @@ ul {
 .name {
 	color: #debef7;
 }
+
+.team {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 3px;
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	background-color: #8c3a2d;
+	display: grid;
+	grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+	justify-items: center;
+	gap: 5px;
+}
+
+.teamPlayers {
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 3px;
+	position: absolute;
+	top: 15%;
+	right: 85%;
+	left: 0px;
+}
+
+.league {
+	grid-column-start:2;
+	grid-column-end:2;
+	grid-row-start:1;
+	grid-row-end:1;
+
+}
+
+.leaguePos {
+	grid-column-start:3;
+	grid-column-end:3;
+	grid-row-start:1;
+	grid-row-end:1;
+}
+
+
+.teamName {
+	grid-column-start:2;
+	grid-column-end:2;
+	grid-row-start:2;
+	grid-row-end:2;
+}
+
+.teamKit {
+	grid-column-start:1;
+	grid-column-end:2;
+	grid-row-start:1;
+	grid-row-end:3;
+}
+
+.record {
+	grid-column-start:3;
+	grid-column-end:3;
+	grid-row-start:2;
+	grid-row-end:2;
+}
+
+.abbrev {
+	grid-column-start:2;
+	grid-column-end:2;
+	grid-row-start:3;
+	grid-row-end:3;
+}
+.awards {
+	grid-column-start:3;
+	grid-column-end:3;
+	grid-row-start:3;
+	grid-row-end:3;
+}
