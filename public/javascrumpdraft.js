@@ -7,7 +7,7 @@ var surnameList = [
 ];
 
 var speciesList = [
-	'Human', 'Orc', 'Fae', 'Gnome', 'Elf', 'Dwarf', 'Centaur'
+	'Human', 'Orc', 'Gnome', 'Elf', 'Dwarf', 'Centaur'
 ];
 
 var newPlayer = "";
@@ -25,8 +25,8 @@ function generate() {
 				break;
 			} //otherwise the loop continues
 		} 
-		//add name to element
-		document.querySelector(`#player${playerLetter}>.name`).innerText = name;
+		//add name to elements
+		for (let element of document.querySelectorAll(`#player${playerLetter}>.name`)) {element.innerText = name}; 
 		//add species
 		document.querySelector(`#player${playerLetter}>.species`).innerText = speciesList[Math.floor(Math.random() * speciesList.length)];
 
