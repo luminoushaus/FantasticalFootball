@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-//const SECRETS = require('./_SECRETS');
+const SECRETS = require('./_SECRETS');
 //var libusers = require('./lib/users');
 //libusers.init();
 
