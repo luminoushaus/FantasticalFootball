@@ -10,6 +10,16 @@ var speciesList = [
 	'Human', 'Orc', 'Gnome', 'Elf', 'Dwarf', 'Centaur'
 ];
 
+var likesList = [ 
+	'Baseball', 'Football', 'the colour red', 'birds', 'cakes', 'summertime', 'springtime', 'autumn', 'winter', 'rocks', 'birds', 'horses', 'dogs', 'cats', 'math', 'going outside', 'sunny weather', 'wet weather', 'space', 'the ocean'
+
+];
+
+var hobbiesList = [ 
+	'playing football.', 'baking.', 'watching bad reality TV.', 'birdwatching.', 'meowing.', 'taking photographs.', "barking.", 'collecting cards.', 'playing chess.', 'practicing taekwondo.', 'doing crosswords.', 'solving sudoku puzzles.', 'cycling.', 'fishing.'
+
+];
+
 var newPlayer = "";
 
 function generate() {
@@ -29,7 +39,24 @@ function generate() {
 		for (let element of document.querySelectorAll(`#player${playerLetter}>.name`)) {element.innerText = name}; 
 		//add species
 		document.querySelector(`#player${playerLetter}>.species`).innerText = speciesList[Math.floor(Math.random() * speciesList.length)];
+		
+		document.querySelector(`#player${playerLetter}>.likes`).innerText = likesList[Math.floor(Math.random() * likesList.length)];
+		
+		document.querySelector(`#player${playerLetter}>.dislikes`).innerText = likesList[Math.floor(Math.random() * likesList.length)];
 
+		document.querySelector(`#player${playerLetter}>.hobbies`).innerText = hobbiesList[Math.floor(Math.random() * hobbiesList.length)];
+		
+		let years = Math.floor(Math.random() * 40) - 20; //so it's -5 to 20
+		let message = '';
+		if (years == 1) {message = `started playing football a year ago`}
+		else if (years == -1) {message = `will have started playing football in a year`}
+		else if (years > 0) {message = `started playing football ${years} years ago`}
+		else if (years < 0) {message = `will have started playing football in ${Math.abs(years)} years`}
+	
+		else {message = `started playing football today`}
+
+		document.querySelector(`#player${playerLetter}>.time`).innerText = message;
+		
 		for (let stat of ["str", "dex", "end", "int", "ego", "fte"]) {
 			document.querySelector(`#player${playerLetter}>.stats>.${stat}`).innerText = getRandomInt(1, 10);
 
@@ -49,3 +76,5 @@ function getRandomInt(min, max) {
 	document.getElementById("playersc").innerText = playerNames;
 	document.getElementById("playersd").innerText = playerNames;
 */
+
+
