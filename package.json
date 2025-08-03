@@ -5,7 +5,7 @@
 	"main": "ffserver.js",
 	"scripts": {
 		"start": "node ./bin/www",
-		"simtest": "node ./lib/sim/test"
+		"startSim": "node ./lib/sim/simserver"
 	},
 	"repository": {
 		"type": "git",
