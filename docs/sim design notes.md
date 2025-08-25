@@ -16,7 +16,7 @@ Orchestrator should also have a couple of utility feeds available, for starting 
 okay new system: actors
 basically its like football video games where you pick someone to play as based on whos actually doing anything rn. the game picks a player to be "active" based on who has posession or is actively making plays. everyone else sort of passively runs around based on their position and the state of the game. I think I want some sort of circle-fitting function to pick a good spot to run to? we'll see how necessary that is though
 
-step 1: passive play
+step 1: passive play: COMPLETIONED
 everyone runs to their position marker based on where the ball is
 
 step 2: basic acting
